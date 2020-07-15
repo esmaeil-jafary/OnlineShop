@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Tahoma;
+}
+
+body{direction:rtl; Tahoma, Helvetica, sans-serif; margin: 0; background-image:url(../image/white-waves.png)}
+
+.header { width:90%; height:150px; margin:auto; background:#527ffa; border-radius:10px; background-image:url(../image/Untitled-1.jpg); background-repeat:round}
+
+.animtext{font-family:Tahoma;width:90%; height:30px; margin:auto; background:#008CBA;border-radius:2px; color:blue;font-weight: bold; line-height:30px}
+ ul{list-style:none; color:#ffffff}
+.navbar {
+  width:90%;	
+  overflow: hidden;
+  background-color:#30185e; 
+  float:right;
+  margin-right:5%;
+  border-radius:10px;
+}
+.navbar a {
+  font-weight: bold;	
+  float: right;
+  font-size: 16px;
+  color: White;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  
+}
+.subnav {
+  float: right;
+  overflow: hidden;
+}
+.subnav .subnavbtn { 
+  font-weight: bold;	
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:White;
+  padding: 10px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: blue;
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:black;
+  width: 100%;
+  z-index: 1;
+  width:90%;
+  margin-left:5%;
+}
+.subnav-content a {
+  float: right;
+  color: white;
+  text-decoration: none;
+}
+.subnav-content a:hover {
+  background-color: blue;
+  color: red;
+}
+.subnav:hover .subnav-content {
+  display: block;
+}
+.content{ width:90%; height:auto; margin:auto; line-height:30px}
+.content table{ margin:auto;}
+.form-submit-button {
+ background-color: none; 
+  border: 2px solid black;
+  border-radius: 6px;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left:20px;
+}
+
+.form-submit-button:hover {
+  background-color: #008CBA; /* Green */
+  color: white;
+}	
+.footer {
+  	
+  width:90%;
+  height:auto;
+  float:left;
+  border-radius:10px;
+  margin-left:5%;
+  display: block;
+  padding: 10px;
+  text-align: center;  
+  background-color: black;
+  background-image:url(../image/footer12.jpg);
+  background-size: contain;
+}
+  
+.footer > span {
+  display: block;
+  color: #dddddd;
+  font-family: sans-serif;
+}
+ 
+.footer > span > a {
+  color: steelblue;
+  text-decoration: none;
+}
+ 
+.footer > .name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 150%;
+  font-family: cookie;
+}
+ 
+.footer > .social-media { margin-bottom: 10px; }
+.footer > .social-media > a {
+  padding: 0 5px;
+  font-size: 38px;
+}
+.social-media a img{ width:30px; height:30px}
+ 
+.footer > .copyright { font-size: 60%; }
+ 
+.footer > .quick-access > a {
+  border-right: 1px solid steelblue;
+  padding: 0 1em;
+  font-size: 60%;
+}
+.footer > .quick-access > a:last-child { border: 0; }
+
+.kala{width:70%; float:left; direction:rtl; background-image:url(../image/images.jpg)}
+.sabad{width:30%; background:#527ffa; float:right; direction:rtl; background-image:url(../image/white-waves.png);}
+.sabad .tsabad {color:red; background:#e7e7e7}
+.kala .aks{width:40%; float:right; direction:rtl; margin-right:7%; text-align:center; margin-top:10px;}
+.kala a{text-decoration:none; color:#f70408}
+.login{width:28%; height:600px; background:#008CBA; margin:auto; margin-top:100px; direction:rtl; border-radius:10px; font-family:Tahoma;}
+.login img{ width:130px; height:130px; margin:auto; margin-right:160px; margin-top:30px}
+.login .acc{ text-align:center; font-size:18px; color:#fff; margin:auto}
+
+.myform{margin:auto; margin-right:50px; line-height:45px}
+
+.myform input{padding:10px 10px;}
+
+.welcome{width:90%; height:50px; line-height:50px; color:yellow; border-radius:15px; direction:rtl; background:#008CBA; margin:auto}
+.user{margin-right:30px; color:yellow; font-size:18px}
+.exit img{ float:left; margin-left:20px;}
+.myframe{width:90%; height:700px; background:#cf90ff; margin-right:5%}
+.endorder {
+  background-color: none; 
+  border: 2px solid black;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top:10px;
+}
+.endorder:hover {
+  background-color: #008CBA; /* Green */
+  color: white;
+}
+.endorder a{text-decoration:none; color:black}
+
